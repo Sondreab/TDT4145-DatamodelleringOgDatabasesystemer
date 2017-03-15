@@ -25,7 +25,7 @@ public class JDBCExample {
             System.out.println("Creating database...");
             stmt = conn.createStatement();
 
-            String sql = "CREATE DATABASE STUDENTS";
+            String sql = "CREATE DATABASE TRENINGSDAGBOK";
             stmt.executeUpdate(sql);
             System.out.println("Database created successfully...");
         }catch(SQLException se){
